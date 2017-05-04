@@ -2,7 +2,6 @@ body {
     background-color: gray;
     text-align: center;
     background-image: url("http://kieranking7559.github.io/unit-3/images/design-studio-hero.jpg") no-repeat fixed center;
-    background-size: 1200px;
     font-family: 'Roboto', sans-serif;
   	color: #333;
 }
