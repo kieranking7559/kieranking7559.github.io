@@ -23,6 +23,11 @@ p {
 	color: white;
 }
 
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
 hr { 
     display: block;
     width: 100px;
