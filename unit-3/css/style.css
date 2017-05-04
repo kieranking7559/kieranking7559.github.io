@@ -1,31 +1,35 @@
+* {margin:0; padding:0; box-sizing:border-box;}
+img {width:200px;display:block;margin:auto;}/* temp styling - delete later */
 body {
     background-color: gray;
     text-align: center;
+<<<<<<< HEAD
     background-image: url("http://kieranking7559.github.io/unit-3/images/design-studio-hero.jpg");
+=======
+>>>>>>> origin/master
     font-family: 'Roboto', sans-serif;
-  	color: #333;
+    color: #333;
 }
-
+section {
+    padding:5em 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+}
 h1 {
     color: white;
-    font-family: 'Roboto Slab', serif;
-    text-transform: uppercase;
     font-size: 48px;
 }
-
-h1, h2, h3, h4, h5, h6 {
-    color: 333;
-    font-family: 'Roboto Slab', serif;
-    text-transform: uppercase;
-}
-
 p {
 	color: white;
 }
 
-a {
+nav a {
     color: white;
     text-decoration: none;
+    display: inline-block;
+    padding: 1em;
 }
 
 ul {
@@ -44,3 +48,9 @@ hr {
     border-width: 1px;
 }
 /*comments in css are different from comments in html*/
+#hero {
+    background: url("http://kieranking7559.github.io/unit-3/images/design-studio-hero.jpg") no-repeat fixed center;
+    background-size: cover;
+    padding: 10em 0 0;
+    height: 90vh;
+}
